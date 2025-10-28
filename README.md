@@ -1,13 +1,13 @@
 💰 Expense Tracker
 
-A full-stack web application for personal finance management, enabling users to track income, expenses, set financial goals, and generate reports. Built using **React.js**, **Node.js**, **Express**, and **MySQL**.
+A full-stack web application for personal finance management, enabling users to track income, expenses, set financial goals, and generate reports. Built using **React.js**, **Node.js**, **Express**, **Tailwind CSS**, and **MySQL**.
 
 ![Expense Tracker Dashboard](assets/screenshots/dashboard.png)
 *Simplified financial control at your fingertips.*
 
 📌 Description
 
-The "Expense Tracker" system was developed to help individuals manage their personal finances efficiently. It addresses the challenges of manual tracking by offering a secure, user-friendly platform to record transactions, monitor spending, and plan for future goals.
+The **Expense Tracker** system was developed to help individuals manage their personal finances efficiently. It addresses the challenges of manual tracking by offering a secure, user-friendly platform to record transactions, monitor spending, and plan for future goals.
 
 🔍 What It Solves
 - Eliminates manual ledger-based tracking
