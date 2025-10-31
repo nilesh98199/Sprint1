@@ -2,7 +2,7 @@
 
 A full-stack web application for personal finance management, enabling users to track income, expenses, set financial goals, and generate reports. Built using **React.js**, **Node.js**, **Express**, **Tailwind CSS**, and **MySQL**.
 
-![Expense Tracker Dashboard](assets/screenshots/dashboard.png)
+![Expense Tracker](assets/screenshots/dashboard.png)
 *Simplified financial control at your fingertips.*
 
 📌 Description
