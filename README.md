@@ -101,9 +101,8 @@ Expense Tracker/
 ### Backend
 - Node.js
 - Express.js
-- PostgreSQL
+- MySQL
 - JWT Authentication
-- Email Service Integration
 
 ## Key Components
 
@@ -157,7 +156,6 @@ npm install
 - Create a `.env` file based on `.env.example`
 - Configure database credentials
 - Set JWT secret
-- Configure email service
 
 4. Run database migrations:
 - Execute schema.sql in your MySQL database
