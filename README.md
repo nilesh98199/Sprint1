@@ -167,29 +167,45 @@ npm install
 npm start
 ```
 
-## API Endpoints
+## API Endpoints (plain language)
 
-### Authentication
-- POST `/api/auth/register` - User registration
-- POST `/api/auth/login` - User login
-- POST `/api/auth/forgot-password` - Password reset request
-- POST `/api/auth/reset-password` - Password reset
+Note: the app handles signing in for you. When the guide below says "you must be signed in", it means use the app's Sign In screen first.
 
-### Transactions
-- GET `/api/transactions` - Get all transactions
-- POST `/api/transactions` - Create new transaction
-- PUT `/api/transactions/:id` - Update transaction
-- DELETE `/api/transactions/:id` - Delete transaction
+### Authentication (accounts)
+- Create an account — Path: `/api/auth/register`
+    - What it does: Register a new user using first name, last name, email and password.
+- Sign in to your account — Path: `/api/auth/login`
+    - What it does: Sign in with your email and password to access your personal data.
+- Forgot password — Path: `/api/auth/forgot-password`
+    - What it does: Request a password reset link to be sent to your email.
+- Reset password — Path: `/api/auth/reset-password`
+    - What it does: Use the reset link or code to set a new password.
 
-### Goals
-- GET `/api/goals` - Get all goals
-- POST `/api/goals` - Create new goal
-- PUT `/api/goals/:id` - Update goal
-- DELETE `/api/goals/:id` - Delete goal
+### Transactions (your money records)
+- View transactions — Path: `/api/transactions`
+    - What you see: A list of your income and expenses. You can narrow it by date range, category, or type (income/expense).
+- Add a transaction — Path: `/api/transactions`
+    - What to provide: Amount, category (e.g., groceries, rent), date, and an optional note.
+- Edit a transaction — Path: `/api/transactions/:id`
+    - What to do: Update any details of a previously saved transaction.
+- Remove a transaction — Path: `/api/transactions/:id`
+    - What to do: Delete an incorrect or duplicate entry.
 
-### Reports
-- GET `/api/reports/summary` - Get financial summary
-- GET `/api/reports/category` - Get category-wise analysis
+### Goals (saving targets)
+- See your goals — Path: `/api/goals`
+    - What you see: All your savings goals and current progress.
+- Create a goal — Path: `/api/goals`
+    - What to provide: Goal name, target amount, target date.
+- Update a goal — Path: `/api/goals/:id`
+    - What to do: Change target or update progress.
+- Remove a goal — Path: `/api/goals/:id`
+    - What to do: Delete a completed or canceled goal.
+
+### Reports (insights)
+- Summary report — Path: `/api/reports/summary`
+    - What it shows: Totals for income, expenses and net savings for a chosen period.
+- Category report — Path: `/api/reports/category`
+    - What it shows: A breakdown of spending by category for a chosen period.
 
 ## Security Features
 
